@@ -21,7 +21,7 @@ ls -l "$DEB_DIR"
 dpkg-scanpackages -m "$DEB_DIR" > Packages
 
 # Compress the Packages file
-bzip2 -fks Packages
+bzip2 -fk Packages
 gzip -fk Packages
 
 # Create the Release file
