@@ -3,8 +3,9 @@ Label: zxs-ai Repo
 Suite: stable
 Version: 1.0
 Codename: zxsrepo
-Architectures: iphoneos-arm
+Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: Personal Sileo repo
-MD5Sum:md5sum Packages
- <填入你生成的 Packages 文件的 MD5 和大小>
+Description: 不要因为越狱而放弃升级的乐趣！
+
+
+#上面全是介绍
