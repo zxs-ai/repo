@@ -31,8 +31,8 @@ jobs:
         run: |
           rm -f Packages Packages.bz2 Packages.gz  # 移除旧文件，避免重复
           dpkg-scanpackages ./debs > Packages      # 生成 Packages 文件
-          gzip -fk Packages                        # 正确的 gzip 命令
-          bzip2 -fk Packages                       # 正确的 bzip2 命令
+          gzip -kf Packages                        # 正确生成 gzip 压缩文件
+          bzip2 -kf Packages                       # 正确生成 bzip2 压缩文件
 
       - name: Commit generated files
         run: |
