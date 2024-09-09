@@ -1,0 +1,10 @@
+Origin: zxs-ai Repo
+Label: zxs-ai Repo
+Suite: stable
+Version: 1.0
+Codename: zxsrepo
+Architectures: iphoneos-arm
+Components: main
+Description: Personal Sileo repo
+MD5Sum:md5sum Packages
+ <填入你生成的 Packages 文件的 MD5 和大小>
