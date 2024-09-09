@@ -29,10 +29,10 @@ jobs:
 
       - name: Generate Packages file
         run: |
-          rm -f Packages Packages.bz2 Packages.gz  # 不需要 sudo
-          dpkg-scanpackages ./debs > Packages      # 使用覆盖而不是追加
-          gzip -kf Packages                        # 使用正确的 gzip 参数
-          bzip2 -kf Packages                       # 使用正确的 bzip2 参数
+          rm -f Packages Packages.bz2 Packages.gz  # 移除旧文件，避免重复
+          dpkg-scanpackages ./debs > Packages      # 生成 Packages 文件
+          gzip -fk Packages                        # 正确的 gzip 命令
+          bzip2 -fk Packages                       # 正确的 bzip2 命令
 
       - name: Commit generated files
         run: |
@@ -56,4 +56,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}  # 确保使用正确的 token
+          github_token: ${{ secrets.GITHUB_TOKEN }}
