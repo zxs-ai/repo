@@ -1,0 +1,10 @@
+{
+  "featured": [
+    {
+      "identifier": "com.example.myapp",
+      "title": "My App",
+      "description": "A sample app",
+      "tintColor": "#5AC8FA"
+    }
+  ]
+}
