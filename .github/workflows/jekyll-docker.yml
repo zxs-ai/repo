@@ -2,8 +2,19 @@ name: Deploy Sileo Repo to GitHub Pages
 
 on:
   push:
-    branches:
-      - main
+    branches: ["master"]
+    paths:
+      - 'debs/*.deb'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -11,16 +22,17 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Install dpkg-scanpackages
-        run: sudo apt-get install -y dpkg-dev
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
 
       - name: Generate Packages file
         run: |
-          dpkg-scanpackages ./debs > Packages
-          bzip2 -fk Packages
-          gzip -fk Packages
+          rm -f Packages Packages.bz2 Packages.gz  # 不需要 sudo
+          dpkg-scanpackages ./debs > Packages      # 使用覆盖而不是追加
+          gzip -kf Packages                        # 使用正确的 gzip 参数
+          bzip2 -kf Packages                       # 使用正确的 bzip2 参数
 
       - name: Commit generated files
         run: |
@@ -29,16 +41,19 @@ jobs:
           git add Packages Packages.bz2 Packages.gz
           git commit -m 'Update Packages files'
 
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+
   deploy:
     runs-on: ubuntu-latest
     needs: build
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+        id: deployment
+        uses: actions/deploy-pages@v4
         with:
-          github_token: ${{ secrets.GH_PAT }}
-          publish_dir: ./  # 发布当前目录
+          github_token: ${{ secrets.GITHUB_TOKEN }}  # 确保使用正确的 token
