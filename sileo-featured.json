@@ -1,10 +1,13 @@
 {
-  "featured": [
-    {
-      "identifier": "com.example.myapp",
-      "title": "My App",
-      "description": "A sample app",
-      "tintColor": "#5AC8FA"
-    }
-  ]
+    "class": "FeaturedBannersView",（进入源后看到的首页图片）
+    "itemSize": "{350, 180}",#这里是大小
+    "itemCornerRadius":20,
+    "banners": [
+        {
+            "url": "http://axs6.github.io/repo/images/logo", #此处图片要上传images里，把链接放这里
+            "title": "",
+            "package":"AppData",
+            "hideShadow": true
+        },
+    ]
 }
