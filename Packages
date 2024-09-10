@@ -86,3 +86,18 @@ Description: The Apple Watch homescreen experience brought to iOS
 Author: MTAC • ETHN
 Name: Bridge
 
+Package: com.pingfan.wechat
+Version: 2.1-8
+Architecture: iphoneos-arm64
+Maintainer: 平凡
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/虚拟视频_2.1-8无根.deb
+Size: 2820628
+MD5sum: 39bcaf1b182075fe16376b40a76ce4cf
+SHA1: 01799fb7bccf27b9785537a02e857abcf1ef6ddf
+SHA256: 5365f34de1c6ab2b0125b0b72df9eb5019eedce218d31e5c56967b70477a83c6
+Section: Tweaks
+Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,新增多端登录设备隐藏等。
+Author: 平凡
+Name: 虚拟视频
+
