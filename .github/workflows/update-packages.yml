@@ -1,0 +1,31 @@
+name: Update Packages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up dpkg-scanpackages
+      run: sudo apt-get install dpkg-dev
+
+    - name: Generate Packages file
+      run: dpkg-scanpackages -m ./debs > Packages
+
+    - name: Compress Packages file
+      run: |
+        gzip -c Packages > Packages.gz
+        bzip2 -c Packages > Packages.bz2
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add Packages Packages.gz Packages.bz2
+        git commit -m 'Update Packages'
+        git push
