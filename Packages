@@ -33,7 +33,7 @@ Description: Displays your touch interactions! 显示触摸屏幕的轨迹；很
 Author: Lessica
 Icon: https://axs6.github.io/repo/sileodepiction/touchvis/icon.png
 Name: Touch-Viz触摸轨迹
-Sileodepiction: https://axs6.github.io/repo/sileodepiction/touchvis/js.json
+Sileodepiction:https://github.com/zxs-ai/repo/blob/main/sileodepiction/apibug/touchz.json
 
 Package: com.curtin.pkc.rootless
 Version: 0.5-8
