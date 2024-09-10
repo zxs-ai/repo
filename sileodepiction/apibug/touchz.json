@@ -78,7 +78,7 @@ sileo源插件内自定义信息
                 {
                     "class": "DepictionTableTextView",
                     "text": "2024 年 08 月 1 日",
-                    "title": "最后更新日期"
+                    "title": "最后更新日期" #更新日期
                 },
                 {
                     "class": "DepictionSpacerView",
@@ -92,7 +92,7 @@ sileo源插件内自定义信息
             "views": [
                {
                     "class": "DepictionSubheaderView",
-                    "title": "2.8",
+                    "title": "2.8",#版本号
                     "useBoldText": true,
                     "useBottomMargin": false
                 },                
@@ -103,7 +103,7 @@ sileo源插件内自定义信息
                 },
                {
                     "class": "DepictionSubheaderView",
-                    "title": "2.5",
+                    "title": "2.5",#版本号
                     "useBoldText": true,
                     "useBottomMargin": false
                 },                
