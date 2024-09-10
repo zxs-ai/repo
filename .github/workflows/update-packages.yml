@@ -25,7 +25,7 @@ jobs:
 
     - name: Commit and push changes
       env:
-        ACTIONS_PAT: ${{ secrets.ACTIONS_PAT }}  # 从 Secrets 中获取 PAT
+        ACTIONS_PAT: ${{ secrets.ACTIONS_PAT }}  # 使用 Secrets 中的 PAT
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
