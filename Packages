@@ -18,23 +18,6 @@ Description: Apibug微信文字转语音插件,官网:www.apibug.com
 Author: www.apibug.com
 Name: ApibugTextToVoice
 
-Package: com.Axs.touchvis
-Version: 2.8-1
-Architecture: iphoneos-arm64
-Maintainer: Axs
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: ./debs/com.zxs.touchvis_2.8_iphoneos-arm64.deb
-Size: 708636
-MD5sum: b4b0d808c0d8b8abc26882cb3e145107
-SHA1: bc79f6b25190034b0359bfc49a11bf2591566f40
-SHA256: ac2e5ad07fb8894a2f26faecd55d45661a93ad030b6545d4266f440696eafa7b
-Section: 录屏轨迹
-Description: Displays your touch interactions! 显示触摸屏幕的轨迹；很酷炫，很丝滑的一个插件，并附带拖尾效果。主要作用:做教程时候让别人知道你点的哪里。
-Author: Lessica
-Icon: https://axs6.github.io/repo/sileodepiction/touchvis/icon.png
-Name: Touch-Viz触摸轨迹
-Sileodepiction: https://axs6.github.io/repo/sileodepiction/touchvis/js.json
-
 Package: com.curtin.pkc.rootless
 Version: 0.5-8
 Architecture: iphoneos-arm64
