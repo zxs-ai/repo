@@ -18,7 +18,7 @@ Description: Apibug微信文字转语音插件,官网:www.apibug.com
 Author: www.apibug.com
 Name: ApibugTextToVoice
 
-Package: com.Axs.touchvis
+Package: com.zxs.touchvis
 Version: 2.8-1
 Architecture: iphoneos-arm64
 Maintainer: Axs
