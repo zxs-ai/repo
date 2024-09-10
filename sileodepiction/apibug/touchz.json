@@ -1,1 +1,118 @@
 
+sileo源插件内自定义信息
+
+
+{
+    "class": "DepictionTabView",
+    "headerImage": "https://github.com/zxs-ai/repo/blob/main/images/zbn.png",
+    "tintColor": "00BFFF",
+    "minVersion": "0.3",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "描述",
+            "views": [
+                {
+                    "text":"TG频道",
+                    "action":"https://t.me/wxfx8",
+                    "openExternal": 1,
+                    "class":"DepictionButtonView"
+                }, 
+               {
+                    "text":"TG群组",
+                    "action":"https://t.me/oncar2",
+                    "openExternal": 1,
+                    "class":"DepictionButtonView"
+                },      
+               {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Displays your touch interactions!显示触摸屏幕的轨迹；很酷炫，很丝滑的一个插件，并附带拖尾效果。主要作用:做教程时候让别人知道你点的哪里。",
+                    "useRawFormat": true,
+                },      
+               {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6,
+                    "itemSize": "{150, 346}",
+                    "screenshots": [                       
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://axs6.github.io/repo/sileodepiction/touchvis/Screenshot_01.png" #插件截图介绍，图1
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://axs6.github.io/repo/sileodepiction/touchvis/Screenshot_02.png"#插件截图介绍，图1
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "详情",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "Z先生",
+                    "title": "修修补补"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "Zxs-ai2024",
+                    "title": "绿泡wx"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "2024 年 08 月 1 日",
+                    "title": "最后更新日期"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "更新日志",
+            "views": [
+               {
+                    "class": "DepictionSubheaderView",
+                    "title": "2.8",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },                
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "主要变化1.现在您可以选择自定义图像作为触摸指示器。\n2.添加不透明度选项。\n3.额外的DRM保护。",#插件介绍说明      
+                    "useRawFormat": true
+                },
+               {
+                    "class": "DepictionSubheaderView",
+                    "title": "2.5",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },                
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "主要变化1.在“跟踪效果”中添加了颜色选项。\n2.如果“仅用于录制”已关闭，您现在可以从控制中心切换触摸可视化。\n3.稳定性修复。",
+                    "useRawFormat": true
+                }
+            ]
+        }
+    ],
+}
