@@ -1,0 +1,182 @@
+Package: cn.octoforce.copyvault
+Version: 1.5.6
+Architecture: iphoneos-arm64
+Maintainer: SquidForce, Backup
+Installed-Size: 7276
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.squidforce.copyvault
+Filename: ./debs/cn.octoforce.copyvault_1.5.6_iphoneos-arm64.deb
+Size: 2276070
+MD5sum: 8bd034d30fd4cbd4719ba4358338646f
+SHA1: 5665bfa9962febfcc9d71f2135c41fa3fdd2009e
+SHA256: 3bdb2f0b0b537ad170c8fb82c283810f99fc9e1ba3be7579c6360cdf854bd7f9
+Section: Tweaks
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Your Copy Vault, Your Pasteboard
+Author: SquidForce, Backup
+Name: CopyVault(激活码版)
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
+
+Package: cn.octoforce.squidgesturepro
+Version: 2.5.3
+Architecture: iphoneos-arm64
+Maintainer: SquidForce, Backup
+Installed-Size: 7308
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Filename: ./debs/cn.octoforce.squidgesturepro_2.5.3_iphoneos-arm64.deb
+Size: 2143690
+MD5sum: 967603c984e229522f89cd505dd8d5b3
+SHA1: d685ba4cbb55ad28d861a4e860ddcb2dfe05bb04
+SHA256: 1e742cf661aeb5eff4586c3752fceff86a555a7b503f5cb7bd3193823ceb1bf2
+Section: Tweaks
+Description: Gestures，激活码用户或需要激活码的用户安装此包，非激活码用户不要装!
+Author: SquidForce, Backup
+Name: SquidGesturePro(激活码)
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
+
+Package: com.0xkuj.safarix
+Version: 1.5.3
+Architecture: iphoneos-arm64
+Maintainer: 0xkuj
+Installed-Size: 744
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.0xkuj.safarix_1.5.3_iphoneos-arm64.deb
+Size: 272848
+MD5sum: a9aa249a82c8b7ef6da988c3be515ed6
+SHA1: 578004eff9b3a4f05528b30e8419d3e8a190271f
+SHA256: 786e766320eb8884a64dc6a8ebda476719c34c694d9e29efe6bcbe18c8cb5a7c
+Section: 系统增强
+Description: Safari Essential Features
+Author: 0xkuj
+Icon: https://axs66.github.io/repo/icon/safari.png
+Name: SafariX
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/safarix/js.json
+
+Package: com.imkpatil.colormybattery
+Version: 1.3.4
+Architecture: iphoneos-arm64
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 436
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker
+Filename: ./debs/com.imkpatil.colormybattery_1.3.4_iphoneos-arm64.deb
+Size: 41352
+MD5sum: d4ac91182c836388095d0444ed89676e
+SHA1: 362390f0706e6d993c1f9b07e4e25587ec5c58ed
+SHA256: ce7dffc8783de0928fad3acc21f29fa90b66fa9307543e7000f1e995fd5abe89
+Section: Tweaks
+Description: Battery Color based on the battery percentage.
+Author: P2KDev <p2kdev@gmail.com>
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.imkpatil.colormybattery
+Icon: https://p2kdev.github.io/repo/api/packageinfo/com.imkpatil.colormybattery/icon.png
+Name: ColorMyBattery
+Sileodepiction: https://p2kdev.github.io/repo/depictions/native/com.imkpatil.colormybattery.json
+
+Package: onesettings
+Version: 2.2
+Architecture: iphoneos-arm64
+Maintainer: Nightwind <nightwinddev@gmail.com>
+Installed-Size: 1084
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
+Conflicts: com.creaturecoding.shuffle
+Replaces: com.twickd.nightwind.onesettings
+Filename: ./debs/onesettings_2.2_iphoneos-arm64.deb
+Size: 207848
+MD5sum: 33ba76fb778a701ea2561ad298c4f828
+SHA1: 4ff5d06dee69b46d127b53244aa600d6672ee943
+SHA256: c6adaafd8bab4b588f33dd8d565a59aac76f736adfd5642641dfd402cd104767
+Section: Tweaks
+Description: 您的设置应用程序得到了极大的增强！
+Author: Nightwind <nightwinddev@gmail.com>
+Icon: https://img.chariz.cloud/icon/onesettings/icon@3x.png
+Name: OneSettings
+
+Package: xyz.cypwn.colorfulwallpaperx
+Version: 4.5k
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/xyz.cypwn.colorfulwallpaperx_4.5k_iphoneos-arm64.deb
+Size: 2128942
+MD5sum: 1468852ed6186b76d3cf3f8686e559c7
+SHA1: 9c5479dffd8169de818f169c84bb4a0ac4c8b06e
+SHA256: ada0e69a60adb5859e87e264296dbdcf3a1fca19a457a0c646d651587583a8f6
+Section: Tweaks
+Description: Dynamic wallpaper with colorful effects.
+Author: Lessica
+Depiction: https://repo.cypwn.xyz/depiction/2822
+Icon: https://repo.cypwn.xyz/packages/ColorfulWallpaperX-Rootless/icon.png
+Name: ColorfulWallpaperX
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2822
+
+Package: xyz.cypwn.cylinder
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: firmware (>= 15.0), preferenceloader
+Filename: ./debs/xyz.cypwn.cylinder_1.1.1_iphoneos-arm64.deb
+Size: 211444
+MD5sum: 3cd2851957bd9cd936cad864ab8fb3ee
+SHA1: bce95109e6ecfda81e89993e19723f0fc8f32068
+SHA256: a167c8eeab7300320f9edefa110b34bed9822d01fabb7a74ad5f330d4f268aca
+Section: Tweaks
+Description: Make your icons dance
+Author: Ryan Nair
+Depiction: https://repo.cypwn.xyz/depiction/1710
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/cylinder.png
+Name: Cylinder
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1710
+
+Package: xyz.cypwn.ding
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.17), firmware (>= 13.0)
+Filename: ./debs/xyz.cypwn.ding_1.1.0_iphoneos-arm64.deb
+Size: 34874
+MD5sum: 737ae3fb374bf3b5257593d2df119af0
+SHA1: edec6712bfdc0153a452b0dd5308daa7749b2374
+SHA256: 81150adccb59cc4b66a903b9cb18b35462bab79b242a0bcb8cb5fb872f69f95d
+Section: Tweaks
+Description: Take control of your ringer switch!
+Author: Nebula
+Depiction: https://repo.cypwn.xyz/depiction/1457
+Icon: https://img.chariz.cloud/icon/ding/icon@3x.png
+Name: Ding
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1457
+
+Package: xyz.cypwn.flora
+Version: 1.1.3
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Installed-Size: 2040
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader (>= 2.2.3), com.mrgcgamer.libgcuniversal, com.opa334.libsandy
+Filename: ./debs/xyz.cypwn.flora_1.1.3_iphoneos-arm64.deb
+Size: 1681924
+MD5sum: 03c5269d1482ee8266c995e89cca266e
+SHA1: c6b540066b48e8fb5e71a998c53812bdfe9c2131
+SHA256: c4d02f29a13ef132bbd2a6bc51d77516cbae75c15ecd0d4e34be5a41108a7f71
+Section: Tweaks
+Description: A modern color changer, built for today's jailbreaks.
+Author: Rosie
+Depiction: https://repo.cypwn.xyz/depiction/2053
+Icon: https://media.havoc.app/65d920d5dc4f78f775457f85
+Name: Flora
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2053
+
+Package: xyz.cypwn.linebit
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Filename: ./debs/xyz.cypwn.linebit_1.0_iphoneos-arm64.deb
+Size: 11151672
+MD5sum: 9af783c63b67e37e30b692cd591e62e5
+SHA1: cf8c5bd01a979b5106e4ed1bf7687c158f7be079
+SHA256: 4127b6f6067bff24768647903561c89cefe5698815107e2f000ad4d83d477369
+Section: Themes
+Description: Linebit for iOS
+Author: Edzon Diaz
+Depiction: https://repo.cypwn.xyz/depiction/1855
+Icon: https://media.havoc.app/65aff73099d547f1b5585a0c
+Name: Linebit
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1855
+
