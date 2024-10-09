@@ -163,20 +163,3 @@ Icon: https://media.havoc.app/65d920d5dc4f78f775457f85
 Name: Flora
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2053
 
-Package: xyz.cypwn.linebit
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Filename: ./debs/xyz.cypwn.linebit_1.0_iphoneos-arm64.deb
-Size: 11151672
-MD5sum: 9af783c63b67e37e30b692cd591e62e5
-SHA1: cf8c5bd01a979b5106e4ed1bf7687c158f7be079
-SHA256: 4127b6f6067bff24768647903561c89cefe5698815107e2f000ad4d83d477369
-Section: Themes
-Description: Linebit for iOS
-Author: Edzon Diaz
-Depiction: https://repo.cypwn.xyz/depiction/1855
-Icon: https://media.havoc.app/65aff73099d547f1b5585a0c
-Name: Linebit
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1855
-
