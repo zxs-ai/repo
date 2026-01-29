@@ -71,19 +71,6 @@ Icon: https://p2kdev.github.io/repo/api/packageinfo/com.imkpatil.colormybattery/
 Name: ColorMyBattery
 Sileodepiction: https://p2kdev.github.io/repo/depictions/native/com.imkpatil.colormybattery.json
 
-Package: com.zxs.misaka
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: zxs <applexyz@my.com>
-Filename: ./debs/com.zxs.misaka_1.0_iphoneos-arm64.deb
-Size: 22540
-MD5sum: dcdf8e8ed3a38a0bddf8d09041e5bfa6
-SHA1: 713c7bb277ca8efde9e7337884e8312402d1547e
-SHA256: a5b08e44680cd8f88f793c6febdcb73d0d3d766bb0ddd8fd199138a289d7d442
-Section: Tweaks
-Homepage: https://github.com/zxs-ai/repo
-Description: Misaka 美化插件
-
 Package: com.zxs.onesettings
 Version: 1.0
 Architecture: iphoneos-arm64
