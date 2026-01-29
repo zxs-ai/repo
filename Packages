@@ -5,7 +5,7 @@ Maintainer: SquidForce, Backup
 Installed-Size: 7276
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
 Conflicts: com.squidforce.copyvault
-Filename: ./debs/cn.octoforce.copyvault_1.5.6_iphoneos-arm64.deb
+Filename: /Users/zz/Nutstore Files/我的坚果云/Ai/搞机/ios/zxs-ai-repo/debs/cn.octoforce.copyvault_1.5.6_iphoneos-arm64.deb
 Size: 2276070
 MD5sum: 8bd034d30fd4cbd4719ba4358338646f
 SHA1: 5665bfa9962febfcc9d71f2135c41fa3fdd2009e
@@ -23,7 +23,7 @@ Maintainer: SquidForce, Backup
 Installed-Size: 7308
 Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
 Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
-Filename: ./debs/cn.octoforce.squidgesturepro_2.5.3_iphoneos-arm64.deb
+Filename: /Users/zz/Nutstore Files/我的坚果云/Ai/搞机/ios/zxs-ai-repo/debs/cn.octoforce.squidgesturepro_2.5.3_iphoneos-arm64.deb
 Size: 2143690
 MD5sum: 967603c984e229522f89cd505dd8d5b3
 SHA1: d685ba4cbb55ad28d861a4e860ddcb2dfe05bb04
@@ -40,7 +40,7 @@ Architecture: iphoneos-arm64
 Maintainer: 0xkuj
 Installed-Size: 744
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
-Filename: ./debs/com.0xkuj.safarix_1.5.3_iphoneos-arm64.deb
+Filename: /Users/zz/Nutstore Files/我的坚果云/Ai/搞机/ios/zxs-ai-repo/debs/com.0xkuj.safarix_1.5.3_iphoneos-arm64.deb
 Size: 272848
 MD5sum: a9aa249a82c8b7ef6da988c3be515ed6
 SHA1: 578004eff9b3a4f05528b30e8419d3e8a190271f
@@ -58,7 +58,7 @@ Architecture: iphoneos-arm64
 Maintainer: P2KDev <p2kdev@gmail.com>
 Installed-Size: 436
 Depends: mobilesubstrate, org.thebigboss.libcolorpicker
-Filename: ./debs/com.imkpatil.colormybattery_1.3.4_iphoneos-arm64.deb
+Filename: /Users/zz/Nutstore Files/我的坚果云/Ai/搞机/ios/zxs-ai-repo/debs/com.imkpatil.colormybattery_1.3.4_iphoneos-arm64.deb
 Size: 41352
 MD5sum: d4ac91182c836388095d0444ed89676e
 SHA1: 362390f0706e6d993c1f9b07e4e25587ec5c58ed
@@ -71,6 +71,19 @@ Icon: https://p2kdev.github.io/repo/api/packageinfo/com.imkpatil.colormybattery/
 Name: ColorMyBattery
 Sileodepiction: https://p2kdev.github.io/repo/depictions/native/com.imkpatil.colormybattery.json
 
+Package: com.zxs.misaka
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: zxs <applexyz@my.com>
+Filename: /Users/zz/Nutstore Files/我的坚果云/Ai/搞机/ios/zxs-ai-repo/debs/com.zxs.misaka_1.0_iphoneos-arm64.deb
+Size: 22540
+MD5sum: dcdf8e8ed3a38a0bddf8d09041e5bfa6
+SHA1: 713c7bb277ca8efde9e7337884e8312402d1547e
+SHA256: a5b08e44680cd8f88f793c6febdcb73d0d3d766bb0ddd8fd199138a289d7d442
+Section: Tweaks
+Homepage: https://github.com/zxs-ai/repo
+Description: Misaka 美化插件
+
 Package: onesettings
 Version: 2.2
 Architecture: iphoneos-arm64
@@ -79,7 +92,7 @@ Installed-Size: 1084
 Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
 Conflicts: com.creaturecoding.shuffle
 Replaces: com.twickd.nightwind.onesettings
-Filename: ./debs/onesettings_2.2_iphoneos-arm64.deb
+Filename: /Users/zz/Nutstore Files/我的坚果云/Ai/搞机/ios/zxs-ai-repo/debs/onesettings_2.2_iphoneos-arm64.deb
 Size: 207848
 MD5sum: 33ba76fb778a701ea2561ad298c4f828
 SHA1: 4ff5d06dee69b46d127b53244aa600d6672ee943
@@ -95,7 +108,7 @@ Version: 4.5k
 Architecture: iphoneos-arm64
 Maintainer: CyPwn
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: ./debs/xyz.cypwn.colorfulwallpaperx_4.5k_iphoneos-arm64.deb
+Filename: /Users/zz/Nutstore Files/我的坚果云/Ai/搞机/ios/zxs-ai-repo/debs/xyz.cypwn.colorfulwallpaperx_4.5k_iphoneos-arm64.deb
 Size: 2128942
 MD5sum: 1468852ed6186b76d3cf3f8686e559c7
 SHA1: 9c5479dffd8169de818f169c84bb4a0ac4c8b06e
@@ -113,7 +126,7 @@ Version: 1.1.1
 Architecture: iphoneos-arm64
 Maintainer: CyPwn
 Depends: firmware (>= 15.0), preferenceloader
-Filename: ./debs/xyz.cypwn.cylinder_1.1.1_iphoneos-arm64.deb
+Filename: /Users/zz/Nutstore Files/我的坚果云/Ai/搞机/ios/zxs-ai-repo/debs/xyz.cypwn.cylinder_1.1.1_iphoneos-arm64.deb
 Size: 211444
 MD5sum: 3cd2851957bd9cd936cad864ab8fb3ee
 SHA1: bce95109e6ecfda81e89993e19723f0fc8f32068
@@ -131,7 +144,7 @@ Version: 1.1.0
 Architecture: iphoneos-arm64
 Maintainer: CyPwn
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.17), firmware (>= 13.0)
-Filename: ./debs/xyz.cypwn.ding_1.1.0_iphoneos-arm64.deb
+Filename: /Users/zz/Nutstore Files/我的坚果云/Ai/搞机/ios/zxs-ai-repo/debs/xyz.cypwn.ding_1.1.0_iphoneos-arm64.deb
 Size: 34874
 MD5sum: 737ae3fb374bf3b5257593d2df119af0
 SHA1: edec6712bfdc0153a452b0dd5308daa7749b2374
@@ -150,7 +163,7 @@ Architecture: iphoneos-arm64
 Maintainer: CyPwn
 Installed-Size: 2040
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader (>= 2.2.3), com.mrgcgamer.libgcuniversal, com.opa334.libsandy
-Filename: ./debs/xyz.cypwn.flora_1.1.3_iphoneos-arm64.deb
+Filename: /Users/zz/Nutstore Files/我的坚果云/Ai/搞机/ios/zxs-ai-repo/debs/xyz.cypwn.flora_1.1.3_iphoneos-arm64.deb
 Size: 1681924
 MD5sum: 03c5269d1482ee8266c995e89cca266e
 SHA1: c6b540066b48e8fb5e71a998c53812bdfe9c2131
