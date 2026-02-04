@@ -9,3 +9,8 @@
 Icon?
 ehthumbs.db
 Thumbs.db
+
+# repack watcher
+.repack-watch.log
+/debs-to-repack/.processed/
+/debs-to-repack/.failed/
